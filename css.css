@@ -1,0 +1,74 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #330785;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  box-sizing: border-box;
+  z-index: 999;
+  overflow-y: auto;
+  
+}
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f2f2f2;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+.content{
+  margin-left: 200px;
+}
+.app{
+  width: 100%;
+}
+.navbar{
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 2;
+}
+.data{
+  padding-top: 70px;
+  width: auto;
+}
+.app div ul.sidebar-list{
+  padding: 0px;
+}
+
+.app div ul.sidebar-list li{
+  list-style:none;
+  margin: 5px;
+  padding: 20px 6px 20px 6px;
+  background-color: #330785;
+  cursor: pointer;
+}
+.app div ul.sidebar-list li:hover{
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius:100px ;
+  text-align: center;
+}
+.app div ul.sidebar-list li a{
+  color: white;
+  text-decoration: none;
+}
+.app div ul.sidebar-list li:hover a{
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+.cerrar_sesion{
+  position: fixed;
+  width: 170px;
+  bottom: 0px;
+}
+.button-sidebar:hover{
+  cursor: pointer;
+}
+#navbarSupportedContent{
+  right:0px;
+}
